@@ -1,4 +1,5 @@
 import React from 'react'
+import Hello from './Hello'
 
 function LanguagesNav ({selected, onUpdateLanguage}) {
   const languages = ['All', 'Javascript', 'Ruby', 'Java', 'CSS', 'Python'];
@@ -45,7 +46,11 @@ console.log(this)
           selected={selectedLanguage}
           onUpdateLanguage={this.updateLanguage}
         />
+        <Hello/>
         </React.Fragment>
+        
+
+        
     )
     
     }   
